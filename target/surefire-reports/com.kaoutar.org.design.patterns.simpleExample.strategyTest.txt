@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.kaoutar.org.design.patterns.simpleExample.strategyTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.059 s <<< FAILURE! -- in com.kaoutar.org.design.patterns.simpleExample.strategyTest
-com.kaoutar.org.design.patterns.simpleExample.strategyTest.testChangingStrategy -- Time elapsed: 0.011 s <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! -- in com.kaoutar.org.design.patterns.simpleExample.strategyTest
+com.kaoutar.org.design.patterns.simpleExample.strategyTest.testChangingStrategy -- Time elapsed: 0.008 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 expected: <Exécution de la stratégie A
 > but was: <Exécution de la stratégie A
@@ -84,7 +84,7 @@ expected: <Exécution de la stratégie A
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.kaoutar.org.design.patterns.simpleExample.strategyTest.testConcreteStrategyA -- Time elapsed: 0.003 s <<< FAILURE!
+com.kaoutar.org.design.patterns.simpleExample.strategyTest.testConcreteStrategyA -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 expected: <Exécution de la stratégie A
 > but was: <Exécution de la stratégie A
@@ -166,7 +166,7 @@ expected: <Exécution de la stratégie A
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.kaoutar.org.design.patterns.simpleExample.strategyTest.testConcreteStrategyB -- Time elapsed: 0.011 s <<< FAILURE!
+com.kaoutar.org.design.patterns.simpleExample.strategyTest.testConcreteStrategyB -- Time elapsed: 0.006 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 expected: <Exécution de la stratégie B
 > but was: <Exécution de la stratégie B

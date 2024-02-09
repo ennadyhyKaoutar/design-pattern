@@ -11,13 +11,9 @@ public class singleton {
         if (instance == null) {
             instance = new singleton();
         }
-        // Retourne l'instance unique
         return instance;
     }
 
-    // Méthode d'exemple
-    public void showMessage() {
-        System.out.println("Hello, je suis un Singleton !");
-    }
+  
 }
 

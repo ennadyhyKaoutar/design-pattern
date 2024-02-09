@@ -4,7 +4,7 @@ public class SimpleClass {
 
 	
     public int add(int firstNumber,int SecondNumber){
-        return (firstNumber + SecondNumber );
+        return 2*(firstNumber + SecondNumber );
     }
 
 

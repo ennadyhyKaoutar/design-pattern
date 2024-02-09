@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.059" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.031" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire3828106934272666662\surefirebooter-20240209222936520_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire3828106934272666662 2024-02-09T22-29-36_165-jvmRun1 surefire-20240209222936520_1tmp surefire_0-20240209222936520_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire17964819579354041123\surefirebooter-20240209230620894_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire17964819579354041123 2024-02-09T23-06-20_573-jvmRun1 surefire-20240209230620894_1tmp surefire_0-20240209230620894_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\lenovo\Downloads\SimpleJavaProject (1) (1)\SimpleJavaProject\target\test-classes;C:\Users\lenovo\Downloads\SimpleJavaProject (1) (1)\SimpleJavaProject\target\classes;C:\Users\lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire3828106934272666662\surefirebooter-20240209222936520_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire17964819579354041123\surefirebooter-20240209230620894_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testChangingStrategy" classname="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.011">
+  <testcase name="testChangingStrategy" classname="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.008">
     <failure message="expected: &lt;Exécution de la stratégie A&#10;&gt; but was: &lt;Exécution de la stratégie A&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <Exécution de la stratégie A
 > but was: <Exécution de la stratégie A
@@ -141,7 +141,7 @@ expected: <Exécution de la stratégie A
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testConcreteStrategyA" classname="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.003">
+  <testcase name="testConcreteStrategyA" classname="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.002">
     <failure message="expected: &lt;Exécution de la stratégie A&#10;&gt; but was: &lt;Exécution de la stratégie A&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <Exécution de la stratégie A
 > but was: <Exécution de la stratégie A
@@ -224,7 +224,7 @@ expected: <Exécution de la stratégie A
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testConcreteStrategyB" classname="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.011">
+  <testcase name="testConcreteStrategyB" classname="com.kaoutar.org.design.patterns.simpleExample.strategyTest" time="0.006">
     <failure message="expected: &lt;Exécution de la stratégie B&#10;&gt; but was: &lt;Exécution de la stratégie B&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
 expected: <Exécution de la stratégie B
 > but was: <Exécution de la stratégie B
